@@ -1,10 +1,6 @@
 spring:
   application:
     name: eureka-client-software-house
-  profiles:
-    active: dev
-  config:
-    import: optional:configserver:http://localhost:8888
 
   data:
     mongodb:
